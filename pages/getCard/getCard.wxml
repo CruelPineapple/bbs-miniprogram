@@ -1,0 +1,7 @@
+<!--pages/getCard/getCard.wxml-->
+<view class="content" wx:if="{{show}}">
+  <text>恭喜你获得</text>
+  <image src="http://anniversary.happydoudou.xyz/{{cardNum}}.png"></image>
+  <button class="check" bindtap="check">我知道了</button>
+</view>
+<button wx:if="{{reload}}" class="reload" bindtap="reload">重新扫码</button>

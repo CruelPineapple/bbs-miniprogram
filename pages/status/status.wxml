@@ -1,0 +1,44 @@
+<!--pages/status/status.wxml-->
+<view class="score-status">
+  <text>已获得积分</text>
+  <text class="score">{{score}}分</text>
+</view>
+<view class="jackpot">
+  <text>爆炸同花顺</text>
+  <text class="score">{{jackpot}}个</text>
+</view>
+<view class="2nd">
+  <text>顺滑顺子</text>
+  <text class="score">{{second}}个</text>
+</view>
+<view class="3rd">
+  <text>无敌炸弹</text>
+  <text class="score">{{third}}个</text>
+</view>
+<view class="card-box">
+  <text>我的牌库</text>
+</view>
+<view class="card-content">
+  <view class="card-view" wx:for="{{cardArr}}" style="width:110px">
+    <image class="card" src="http://anniversary.happydoudou.xyz/{{item}}.png"></image>
+  </view>
+</view>
+<view class="to-rank" bindtap="toRank">
+  <text>›</text>
+</view>
+<view class="rank-bar">
+  <view class="flex-box">
+    <view style="width:50px" wx:if="{{rank==1}}">
+      <image class="my-medal" src="/images/Medals/Gold.svg"></image>
+    </view>
+    <view style="width:50px" wx:if="{{rank==2}}">
+      <image class="my-medal" src="/images/Medals/Silver.svg"></image>
+    </view>
+    <view style="width:50px" wx:if="{{rank==3}}">
+      <image class="my-medal" src="/images/Medals/Bronze.svg"></image>
+    </view>
+    <open-data type="userAvatarUrl" class="icon"></open-data>
+    <text class="my-rank">当前排名{{rank}}</text>
+  </view>
+  <text class="my-score">{{score}}分</text>
+</view>

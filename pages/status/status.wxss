@@ -1,0 +1,104 @@
+/* pages/status/status.wxss */
+page{
+  background-color: #192436;
+  color: #E9a440;
+}
+.score{
+  float: right;
+  margin-right: 20px;
+}
+.score-status>text{
+  font-size: 20px;
+}
+text{
+  font-size: 16px;
+}
+view{
+  width: 340px;
+  float: right;
+  margin-top: 10px;
+}
+.score-status{
+  height: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.card-box{
+  margin-top: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  height: 40px;
+}
+.card-box>text{
+  font-size: 20px;
+}
+.card-content{
+  margin-bottom: 110px;
+}
+.card{
+  width: 80px;
+  height: 125px;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.card-view{
+  float: left;
+}
+.to-rank{
+  position: fixed;
+  bottom: 70px;
+  background-color: #191919;
+  width: 100%;
+  height: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+.to-rank>text{
+  color: rgba(255, 255, 255, 0.2);
+  float: right;
+  line-height: 40px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+.rank-bar{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(25, 25, 25);
+  margin: 0;
+}
+.flex-box{
+  display: flex;
+  float: left;
+  align-items: center;
+  margin: 0;
+  width: 290px;
+  height: 70px;
+}
+.my-medal{
+  width: 45px;
+  height: 45px;
+  scale: 0.8;
+}
+.my-icon{
+  width: 50px;
+  height: 50px;
+}
+.my-rank{
+  margin-left: 10px;
+  /* float: left; */
+  line-height: 70px;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  overflow: hidden;
+}
+.my-score{
+  float: right;
+  line-height: 70px;
+  margin-right: 15px;
+}

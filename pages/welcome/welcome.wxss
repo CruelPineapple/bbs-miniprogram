@@ -1,0 +1,32 @@
+/* pages/welcome/welcome.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #192436;
+  text-align: center;
+}
+.title-pic{
+  top: 20px;
+  scale: 0.6;
+}
+.user-icon{
+  border-radius: 10%;
+  overflow: hidden;
+  height: 60px;
+  width: 60px;
+}
+.username{
+  margin-top: 20px;
+  color: #E9A440;
+}
+.scan{
+  margin-top: 50px;
+  background-color: #576B95;
+  color: white;
+}
+.rank{
+  margin-top: 20px;
+  background-color: #e9a440;
+  color: white;
+}

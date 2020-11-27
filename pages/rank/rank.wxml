@@ -1,0 +1,21 @@
+<!--pages/rank/rank.wxml-->
+<view class="user-rank" wx:for="{{rankArr}}">
+  <view class="flex-box">
+    <view wx:if="{{index==0}}" class="medal-box">
+      <image class="medal" src="/images/Medals/Gold.svg"></image>
+    </view>
+    <view wx:if="{{index==1}}" class="medal-box">
+      <image class="medal" src="/images/Medals/Silver.svg"></image>
+    </view>
+    <view wx:if="{{index==2}}" class="medal-box">
+      <image class="medal" src="/images/Medals/Bronze.svg"></image>
+    </view>
+    <view wx:if="{{index>=3}}" class="medal-box">
+      <text>{{index+1}}</text>
+    </view>
+    <image class="icon" src="{{item.userAvatar}}"></image>
+    <text class="user">{{item.userName}}</text>
+  </view>
+  <text class="score">{{item.score}}分</text>
+</view>
+

@@ -1,0 +1,44 @@
+/* pages/getCard/getCard.wxss */
+page{
+  background-color: #192436;
+  display: flex;
+  justify-content: center;
+}
+image{
+  width: 140px;
+  height: 220px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+text{
+  color: #E9A440;
+  
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 310px;
+  height: 360px;
+  top: 70px;
+  background-color: rgb(30, 30, 30);
+  text-align: center;
+  z-index: 1;
+  border-radius: 10px;
+}
+.check{
+
+  background-color: rgb(30,30,30);
+  color: #E9A440;
+}
+.reload{
+  background-color: #E9A440;
+  color: white;
+  position: fixed;
+  bottom: 200px;
+}
+.reload{
+  z-index: 0;
+}

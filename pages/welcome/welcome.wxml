@@ -1,0 +1,6 @@
+<!--pages/welcome/welcome.wxml-->
+<image class="title-pic" src="/images/Title.svg"></image>
+<open-data class="user-icon" type="userAvatarUrl"></open-data>
+<open-data class="username" type="userNickName" lang="zh_CN">获取用户名</open-data>
+<button class="scan" bindtap="toScan">添加卡牌</button>
+<button class="rank" bindtap="toStatus">我的活动状态</button>

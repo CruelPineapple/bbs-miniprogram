@@ -1,0 +1,17 @@
+<!--pages/index/index.wxml-->
+<image class="title-pic" src="/images/Title.svg"></image>
+<view class="input-box">
+  <view class="input">
+    <text class="key">河畔ID</text>
+    <input class="value" placeholder="请输入河畔ID" type="text" bindinput="idInput"></input>
+  </view>
+  <view class="input">
+    <text class="key">手机号</text>
+    <input class="value" placeholder="请输入手机号" type="number" bindinput="phoneInput"></input>
+  </view>
+  <view class="input">
+    <text class="key">学号</text>
+    <input style="margin-left:25px" class="value" placeholder="请输入信息门户学号" type="number" bindinput="stuInput"></input>
+  </view>
+  <button class="submit" bindtap="login">登录</button>
+</view>

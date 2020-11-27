@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/status/status",
+    "pages/rank/rank",
+
+    "pages/index/index",
+    "pages/getCard/getCard",
+
+    "pages/welcome/welcome"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#191919",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

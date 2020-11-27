@@ -1,0 +1,36 @@
+/* pages/index/index.wxss */
+page{
+  background-color: #192436;
+  text-align: center;
+}
+input{
+  color: white;
+}
+.title-pic{
+  scale: 0.8;
+}
+.input-box{
+  margin-top: 40px;
+}
+.input{
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key{
+  color: #E9A440;
+}
+.value{
+  margin-left: 10px;
+  width: 250px;
+  display: inline-block;
+  border-bottom-style: solid;
+  border-bottom-color: #E9A440;
+  border-bottom-width: 1px;
+}
+.submit{
+  margin-top: 60px;
+  background-color: #e9a440;
+  color: white;
+}
